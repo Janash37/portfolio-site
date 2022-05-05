@@ -6,10 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jan's portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--Bootstrap scripts-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <!--Internal pages and images-->
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="images/favicon.ico">
+    <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;600&display=swap" rel="stylesheet">
@@ -17,88 +23,132 @@
 
 <body>
 
-    <section id="navbar">
+    <section id="title">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto navbar-top">
-                    <a class="nav-link" href="#">Home</a>
-                    <a class="nav-link" href="#">About</a>
-                    <a class="nav-link" href="#">Projects</a>
-                    <a class="nav-link" href="#">Blog</a>
-                    <a class="nav-link" href="#">Contact</a>
+
+            <!--Navbar-->
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ms-auto navbar-top">
+                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#">Projects</a>
+                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link" href="#">Contact</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </nav>
+
+            <!--Title section-->
+
+            <h1>Hi, I'm Jan</h1>
+            <p>a software developer in the making!</p>
+
         </div>
-    </nav>
-
-    </section>
-
-
-    <section id="top-container">
-
-        <h1>Hi, I'm Jan</h1>
-        <p>a software developer in the making!</p>
 
     </section>
 
 
     <section id="second-container">
+        <div class="container-fluid">
 
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12" style="background-color:green">col-lg-2 col-md-2 col-sm-1</div>
-            <div class="col-lg-6 col-md-6 col-sm-12" style="background-color:green">col-lg-2 col-md-2 col-sm-1</div>
+            <!--About-->
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <h1>About me</h1>
+                    <p>I'm a junior software developer living in the south of England. I'm just starting my journey into
+                        the world of programming after 8 years of working in sales within the healthcare industry.</p>
+                    <p>I am really keen to get to grips with programming, particularly front-end. As such, I've recently
+                        enrolled in a 3-month bootcamp with <strong>Northcoders</strong>, an UK-based organisation doing
+                        their part to fill the skill shortage by training high-quality junior software developers.</p>
+                    <p>All being well, I should complete the bootcamp in mid-August 2022, after which I'll be looking
+                        for my first job as a programmer!</p>
+
+                    <h2>Education</h2>
+
+                    <h2>Skills</h2>
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img id="headshot" src="images/190920_TheCorpus_S04_006_JA.jpg" alt="My headshot">
+                </div>
+            </div>
+
         </div>
-
-        <h1>About me</h1>
-        <p>I'm Jan, a junior software developer living in the south of England. I'm just starting my journey into the world of programming after 8 years of working in sales within the healthcare industry.</p>
-        <p>I am really keen to get to grips with programming, particularly front-end. As such, I've recently enrolled in a 3-month bootcamp with <strong>Northcoders</strong>, an UK-based organisation doing their part to fill the skill shortage by training high-quality junior software developers.</p>
-        <p>All being well, I should complete the bootcamp in mid-August 2022, after which I'll be looking for my first job as a programmer!</p>
-
-        <h2>Education</h2>
-
-        <h2>Skills</h2>
-
     </section>
 
 
     <section id="third-container">
+        <div class="container-fluid">
+            <!--Project work-->
 
-        <h1>Projects</h1>
-        <p>This website is my first project! Check regularly for updates on what else I've been working on, as I gain new skills...</p>
+            <h1>Projects</h1>
+            <p>This website is my first project! Check regularly for updates on what else I've been working on, as I
+                gain new skills...</p>
 
+        </div>
     </section>
 
 
     <section id="bottom-container">
+        <div class="container-fluid">
+            <!--Contact form-->
 
-        <h1>Get in touch</h1>
-        <p>Contact form to go here</p>
+            <h1>Get in touch</h1>
 
+            <form action="mailto:janash_37@hotmail.co.uk">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something..." style="width:400px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+
+        </div>
     </section>
 
 
     <section id="social-media-links">
+        <div class="container-fluid">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav m-auto">
-                  <a class="nav-link" href="#">LinkedIn</a>
-                  <a class="nav-link" href="#">Twitter</a>
-                  <a class="nav-link" href="#">Email</a>
+            <!--Social media links-->
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav m-auto">
+                            <a class="nav-link" href="#">LinkedIn</a>
+                            <a class="nav-link" href="#">Twitter</a>
+                            <a class="nav-link" href="#">Email</a>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-        </nav>
+            </nav>
 
+        </div>
     </section>
 
 
