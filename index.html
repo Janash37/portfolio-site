@@ -1,211 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jan's portfolio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jan Ash, Junior Dev</title>
     <!--Bootstrap scripts-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <!--Internal pages and images-->
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="images/favicon.ico" />
     <!--Google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;600&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
-    <!--Title section-->
-    <section id="title">
-
-        <div class="container-fluid" id="title-section">
-
-            <!--Navbar-->
-            <nav id="navbar-top" class="navbar navbar-expand-lg">
-                <div class="container-fluid" id="top-container-nav">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav ms-auto navbar-top">
-                            <a class="nav-link" href="#">Home</a>
-                            <a class="nav-link" href="#">About</a>
-                            <a class="nav-link" href="#">Projects</a>
-                            <a class="nav-link" href="#">Blog</a>
-                            <a class="nav-link" href="#">Contact</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-
-            <!--Header-->
-            <h1 class="header">Hi, I'm Jan</h1>
-            <p>a software developer in the making!</p>
-
+  <body>
+    <header>
+      <nav id="navbar-top">
+        <div id="navbar">
+          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#">About me</a>
+          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#">Contact me</a>
         </div>
+      </nav>
 
-    </section>
+      <!--Header-->
+      <section id="title">
+        <h1>Hi, I'm Jan</h1>
+        <p>Software Developer in the making!</p>
+      </section>
+    </header>
 
-
-    <!--About-->
-    <section id="second-container">
-        <div class="container-fluid">
-
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12" id="about-container">
-                    <h2>About me</h2>
-                    <p>I'm a <strike>fitness obsessive</strike> junior software developer living in the south of England.
-                        I'm only just now starting my journey into the world of programming after 8 years of working in
-                        sales within the healthcare industry.</p>
-                    <p>I am really keen to get to grips with programming, particularly front-end. As such, I've recently
-                        enrolled in a 3-month bootcamp with <strong>Northcoders</strong>, an UK-based organisation doing
-                        their part to fill the skill shortage by training high-quality junior software developers.</p>
-                    <p style="margin-bottom:2rem">All being well, I should complete the bootcamp in mid-August 2022,
-                        after
-                        which I'll be looking for my first job as a programmer!</p>
-
-                    <h2>Education</h2>
-                    <table>
-                        <tr>
-                            <td><strong>Where</strong></td>
-                            <td><strong>When</strong></td>
-                            <td><strong>What</strong></td>
-                        </tr>
-                        <tr>
-                            <td>University of Liverpool</td>
-                            <td>2009-2014</td>
-                            <td>BA Hons German & History</td>
-                        </tr>
-                        <tr>
-                            <td>Northcoders</td>
-                            <td>May-August 2022</td>
-                            <td>Software development bootcamp</td>
-                        </tr>
-
-                    </table>
-
-                    <h2>Skills</h2>
-                    <table>
-                        <tr>
-                            <td>JavaScript</td>
-                            <td>⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>HTML</td>
-                            <td>⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>CSS</td>
-                            <td>⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>German language</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                    </table>
-
-
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-sm-12" id="about-container">
-                    <img id="headshot" src="images/190920_TheCorpus_S04_006_JA.jpg" alt="My headshot">
-                </div>
-            </div>
-
+    <main>
+      <!--BIO-->
+      <section id="bio">
+        <div class="container-fluid" id="bio-container">
+          <div class="col-lg-6 col-md-6 col-sm-12" id="bio-container-left">
+            <h2>Bio</h2>
+            <p>
+              I'm a <strike>fitness obsessive</strike> junior full stack
+              developer living in the south of England. After 8 years of working
+              in sales within the healthcare industry I decided to take the
+              plunge and turn my software development hobby into a career.
+            </p>
+            <p>
+              At the moment my skills are mostly focussed around
+              <strong>React</strong> and <strong>Node.js</strong>, but I also
+              dabble in Python.
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12" id="about-container-right">
+            <img id="headshot" src="images/me-big.png" alt="My headshot" />
+          </div>
         </div>
-    </section>
+      </section>
 
-
-    <!--Project work-->
-    <section id="third-container">
+      <!--Project work-->
+      <section id="projects">
         <div class="container-fluid" id="projects-container">
-
-            <h2 style="color: #FFF">Projects</h2>
-            <p></p>
-            <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" class="project-carousel">
-                        <p class="project-quote">This website is my first project!</p>
-                        <p>Check back regularly for updates on what else I've been working on, as I
-                            gain new skills...</p>
-                    </div>
-                    <div class="carousel-item">
-                        <p class="project-quote">This website is my first project!</p>
-                        <p>Check back regularly for updates on what else I've been working on, as I
-                            gain new skills...</p>
-                    </div>
-                    <div class="carousel-item">
-                        <p class="project-quote">This website is my first project!</p>
-                        <p>Check back regularly for updates on what else I've been working on, as I
-                            gain new skills...</p>
-                    </div>
-                </div>
+          <h2 style="color: #fff">Projects</h2>
+          <p></p>
+          <div
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-bs-interval="8000"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" class="project-carousel">
+                <p class="project-quote">This website is my first project!</p>
+                <p>
+                  Check back regularly for updates on what else I've been
+                  working on, as I gain new skills...
+                </p>
+              </div>
+              <div class="carousel-item">
+                <p class="project-quote">This website is my first project!</p>
+                <p>
+                  Check back regularly for updates on what else I've been
+                  working on, as I gain new skills...
+                </p>
+              </div>
+              <div class="carousel-item">
+                <p class="project-quote">This website is my first project!</p>
+                <p>
+                  Check back regularly for updates on what else I've been
+                  working on, as I gain new skills...
+                </p>
+              </div>
             </div>
-
+          </div>
         </div>
-    </section>
+      </section>
 
-
-    <!--Contact form-->
-    <section id="bottom-container">
+      <!--Contact form-->
+      <section id="contact">
         <div class="container-fluid">
+          <h2>Get in touch</h2>
 
-            <h2>Get in touch</h2>
+          <form id="contact-form" action="mailto:janash_37@hotmail.co.uk">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name..."
+            />
 
-            <form id="contact-form" action="mailto:janash_37@hotmail.co.uk">
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name..."
+            />
 
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name...">
-
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something..." style="width:400px"></textarea>
-
-                <input type="submit" value="Submit">
-
-            </form>
-
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something..."
+            ></textarea>
+            <input type="submit" value="Submit" />
+          </form>
         </div>
-    </section>
+      </section>
 
-
-    <!--Social media links-->
-    <section id="social-media-links">
-        <div class="container-fluid" id="social-media-container">
-
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid" id="social-media">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav m-auto">
-                            <a class="nav-link" href="#">LinkedIn</a>
-                            <a class="nav-link" href="#">Twitter</a>
-                            <a class="nav-link" href="#">Email</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-
-        </div>
-    </section>
-
-
-</body>
-
+      <!--Social media links-->
+      <section class="social-links">
+        <a href="https://twitter.com/janash37" target="blank">LinkedIn </a>
+        <a href="https://twitter.com/janash37" target="blank"> Twitter </a>
+        <a href="https://twitter.com/janash37" target="blank"> GitHub </a>
+      </section>
+    </main>
+  </body>
 </html>
