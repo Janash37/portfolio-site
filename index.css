@@ -180,3 +180,8 @@ main {
 .contact-list {
   color: #fff;
 }
+
+.social-icons img {
+  margin: 5% 8% 5% 0;
+  width: 10%;
+}
