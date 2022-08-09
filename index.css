@@ -12,6 +12,7 @@ h1 {
 }
 
 h2 {
+  color: #fff;
   margin-bottom: 1rem;
 }
 
@@ -106,7 +107,7 @@ main {
 .experience-job {
   background-color: #607eaa;
   color: #fff;
-  border-bottom: 5px solid #089bfd;
+  border-bottom: 5px solid #f9f5eb;
   line-height: 1.5;
 }
 
@@ -140,11 +141,42 @@ main {
   }
 
   #navbar {
-    margin: auto auto 5% auto;
+    margin: auto auto 3% auto;
     justify-content: center;
   }
 
-  #headshot {
-    display: none;
+  #bio-container {
+    display: flex;
+    flex-direction: column;
   }
+
+  #bio-container-left {
+    position: relative;
+    margin-top: 70%;
+  }
+
+  #bio-container-right {
+    margin: 2% 10% 0 0;
+    position: absolute;
+  }
+
+  #headshot {
+    width: 60%;
+  }
+}
+
+/* Contact page */
+
+.contact {
+  margin: 5% 12.5%;
+}
+
+.contact h1 {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 10%;
+}
+
+.contact-list {
+  color: #fff;
 }
