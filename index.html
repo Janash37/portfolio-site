@@ -42,8 +42,10 @@
 
       <!--Header-->
       <section id="title">
-        <h1>Hi, I'm Jan</h1>
-        <p>Software Developer in the making!</p>
+        <h1>Hi, I'm Jan!</h1>
+        <div class="container">
+          <h3><span class="auto-type"></span></h3>
+        </div>
       </section>
     </header>
 
@@ -52,18 +54,25 @@
       <section id="bio">
         <div class="container-fluid" id="bio-container">
           <div class="col-lg-6 col-md-6 col-sm-12" id="bio-container-left">
-            <h2>Bio</h2>
+            <h2>About me</h2>
             <p>
-              I'm a <strike>fitness obsessive</strike> junior full stack
-              developer living in the south of England. After 8 years of working
-              in sales within the healthcare industry I decided to take the
-              plunge and turn my software development hobby into a career.
+              I'm a junior full stack developer living in the south of England.
+              After 8 years of working in sales within the healthcare industry I
+              decided to take the plunge and turn my software development hobby
+              into a career.
             </p>
             <p>
-              At the moment my skills are mostly focussed around
-              <strong>React</strong> and <strong>Node.js</strong>, but I also
-              dabble in Python.
+              At the moment my main skills include
+              <strong>React</strong>, <strong>React Native</strong> and
+              <strong>Node.js</strong>.
             </p>
+            <p>Other techs I've used include:</p>
+            <ul>
+              <li>Firebase</li>
+              <li>PostgreSQL</li>
+              <li>Svelte</li>
+              <li>Python</li>
+            </ul>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12" id="bio-container-right">
             <img id="headshot" src="images/me-big.png" alt="My headshot" />
@@ -74,7 +83,8 @@
       <!--Experience-->
       <section id="experience">
         <div class="experience-job">
-          <h2 class="text-secondary">May 2022 - August 2022</h2>
+          <h2>Experience</h2>
+          <h3>May 2022 - August 2022</h3>
           <h4>Trainee Full-Stack Web Developer</h4>
           <h5 class="job-title">Northcoders</h5>
           <p>
@@ -99,53 +109,36 @@
           <p>- Developed web applications</p>
         </div>
         <div class="experience-job">
-          <h3 class="text-secondary">April 2018 - May 2022</h3>
+          <h3>September 2017 - May 2022</h3>
           <h4>Business Development Manager</h4>
           <h5 class="job-title">The Corpus</h5>
           <p>
             <b
-              >An intense industry focused bootcamp, learning JavaScript best
-              practises and implementation in both front and backend.</b
+              >Online medical education initiatives for healthcare professionals
+              worldwide.</b
             >
           </p>
-          <p>- Learnt React.js framework and React Hooks</p>
-          <p>- Test Driven Development practices</p>
-          <p>- Object Orientated Programming</p>
-          <p>
-            - Built a RESTful API ‘NC News’ – uses PostgreSQL and Express to
-            serve JSON objects to 14 different endpoints using a variety of
-            methods and queries.
-          </p>
-          <p>
-            - Created a responsive and dynamic front end using React to interact
-            with the NC News API
-          </p>
-          <p>- Developed web applications</p>
+          <p>- Lead the Sales & Marketing teams</p>
+          <p>- Coordinated social media growth</p>
+          <p>- Design and creation of Sales and Marketing materials</p>
+          <p>- Short and long-term strategy</p>
+          <p>- Representation at industry conferences</p>
         </div>
         <div class="experience-job">
-          <h3 class="text-secondary">September 2017 - April 2018</h3>
-          <h4>Account Manager</h4>
-          <h5 class="job-title">The Corpus</h5>
+          <h3>August 2014 - September 2017</h3>
+          <h4>Recruiter</h4>
+          <h5 class="job-title">MedTech Professionals</h5>
           <p>
             <b
-              >An intense industry focused bootcamp, learning JavaScript best
-              practises and implementation in both front and backend.</b
+              >Recruitment of European professionals in the medical devices
+              field.</b
             >
           </p>
 
-          <p>- Learnt React.js framework and React Hooks</p>
-          <p>- Test Driven Development practices</p>
-          <p>- Object Orientated Programming</p>
-          <p>
-            - Built a RESTful API ‘NC News’ – uses PostgreSQL and Express to
-            serve JSON objects to 14 different endpoints using a variety of
-            methods and queries.
-          </p>
-          <p>
-            - Created a responsive and dynamic front end using React to interact
-            with the NC News API
-          </p>
-          <p>- Developed web applications</p>
+          <p>- Company representative for Germany, Austria, Switzerland</p>
+          <p>- Setup of new German office in Munich</p>
+          <p>- POC for incoming European enquiries</p>
+          <p>- Handler for German-speaking contacts</p>
         </div>
       </section>
 
@@ -156,5 +149,20 @@
         <a href="https://twitter.com/janash37" target="blank"> GitHub </a>
       </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      let typed = new Typed(".auto-type", {
+        strings: [
+          "Junior software developer.",
+          "German speaker.",
+          "History enthusiast.",
+          "Viking reenactor.",
+          "Half-decent athlete.",
+        ],
+        typeSpeed: 75,
+        backSpeed: 75,
+        loop: true,
+      });
+    </script>
   </body>
 </html>
