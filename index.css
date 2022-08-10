@@ -280,23 +280,64 @@ main {
   }
 }
 
-/* -------------- CONTACT PAGE -------------- */
+@media screen and (max-width: 992px) {
+  .contact {
+    margin: 25% 12.5%;
+    width: 90vw;
+  }
 
-.contact {
-  margin: 5% 12.5%;
+  .contact h1 {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 10%;
+  }
+
+  .contact-list {
+    color: #fff;
+  }
+
+  .social-icons a {
+    text-decoration: none;
+  }
+
+  .social-icons img {
+    margin: 5% 8% 5% 0;
+    width: 10%;
+  }
 }
 
-.contact h1 {
-  color: #fff;
-  font-size: 3rem;
-  margin-bottom: 10%;
-}
+/* -------------- PROJECTS PAGE -------------- */
 
-.contact-list {
-  color: #fff;
-}
+@media screen and (max-width: 992px) {
+  .projects {
+    margin: 25% 12.5%;
+  }
 
-.social-icons img {
-  margin: 5% 8% 5% 0;
-  width: 10%;
+  .projects h1 {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 10%;
+  }
+
+  .projects p {
+    color: #fff;
+    margin-bottom: 10%;
+  }
+
+  .projects h4 {
+    color: #fff;
+    margin: 5% 0 0 0;
+    text-align: center;
+  }
+
+  #project-items {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .project-item-img {
+    max-width: 100%;
+    margin: 5% 0 8% 0;
+  }
 }
