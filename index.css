@@ -149,6 +149,7 @@ main {
 
 #sidebar-menu {
   transition: 0.3s;
+  max-height: 300px;
 }
 
 /* -------------- MAIN -------------- */
@@ -278,6 +279,15 @@ main {
   #headshot {
     width: 60%;
   }
+
+  .social-icons a {
+    text-decoration: none;
+  }
+
+  .social-icons img {
+    margin: 5% 8% 5% 0;
+    width: 10%;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -296,11 +306,18 @@ main {
     color: #fff;
   }
 
-  .social-icons a {
-    text-decoration: none;
+  .home-social-icons {
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
   }
 
-  .social-icons img {
+  .home-social-icons a {
+    text-decoration: none;
+    margin-left: 13%;
+  }
+
+  .home-social-icons img {
     margin: 5% 8% 5% 0;
     width: 10%;
   }
