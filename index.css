@@ -297,6 +297,49 @@ body {
 
 /* -------------- CONTACT -------------- */
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+  margin-left: 12.5vw;
+  color: #fff;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 2% 0;
+}
+
+.contact-item {
+  margin-top: 1.5vw;
+}
+
+.contact-item p {
+  margin-top: 0.5vw;
+}
+
+/* -------------- SOCIALS -------------- */
+
+.social-icons,
+.home-social-icons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.social-icons img,
+.home-social-icons img {
+  width: 3vw;
+  margin: 1vw 3vw 0 0;
+}
+
+#tweet-vector {
+  margin-top: 25%;
+}
+
 /* -------------- MOBILE -------------- */
 
 @media screen and (max-width: 992px) {
