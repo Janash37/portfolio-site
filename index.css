@@ -21,7 +21,7 @@ main,
 .navbar,
 #title,
 #experience {
-  background-color: #607eaa;
+  background-color: #5a7aaa;
   color: #fff;
 }
 
@@ -38,7 +38,7 @@ main {
   display: block;
   height: 100px;
   width: 100%;
-  background: #607eaa;
+  background: #5a7aaa;
   margin: 0px;
   z-index: 9;
 }
@@ -87,7 +87,7 @@ main {
   position: fixed;
   top: 3%;
   right: 10%;
-  width: 50px;
+  width: 55px;
   height: 50px;
   display: none;
   border: none;
@@ -97,12 +97,12 @@ main {
     to bottom,
     #fff,
     #fff 20%,
-    #607eaa 20%,
-    #607eaa 40%,
+    transparent 20%,
+    transparent 40%,
     #fff 40%,
     #fff 60%,
-    #607eaa 60%,
-    #607eaa 80%,
+    transparent 60%,
+    transparent 80%,
     #fff 80%,
     #fff 100%
   );
@@ -115,7 +115,7 @@ main {
   left: -250px;
   width: 200px;
   height: 100%;
-  background-color: #607eaa;
+  background-color: #5a7aaa;
   transition: 0.3s;
   padding: 5% 5%;
   box-sizing: border-box;
@@ -177,6 +177,11 @@ main {
   width: 75vw;
 }
 
+#bio h2,
+#experience h2 {
+  font-size: 2rem;
+}
+
 #bio-container {
   display: flex;
   flex-direction: row;
@@ -192,6 +197,10 @@ main {
 #bio-container-left {
   flex-direction: column;
   justify-content: flex-start;
+}
+
+#bio-container-left h2 {
+  margin-top: 10vw;
 }
 
 #bio-container-right {
@@ -215,7 +224,7 @@ main {
 }
 
 .experience-job {
-  background-color: #607eaa;
+  background-color: #5a7aaa;
   color: #fff;
   border-bottom: 5px solid #f9f5eb;
   line-height: 1.5;
@@ -240,11 +249,11 @@ main {
 /* -------------- PROJECTS -------------- */
 
 body {
-  background-color: #607eaa;
+  background-color: #5a7aaa;
 }
 
 .projects {
-  background-color: #607eaa;
+  background-color: #5a7aaa;
   color: #fff;
   align-items: center;
   justify-content: center;
@@ -270,8 +279,7 @@ body {
   border: 1px solid #7796c5;
   border-radius: 3%;
   max-width: 32%;
-  margin-bottom: 3%;
-  height: 550px;
+  margin-bottom: 10%;
 }
 
 .project-item:hover {
@@ -332,7 +340,7 @@ body {
 
 .social-icons img,
 .home-social-icons img {
-  width: 3vw;
+  width: 50px;
   margin: 1vw 3vw 0 0;
 }
 
@@ -344,7 +352,7 @@ body {
 
 @media screen and (max-width: 992px) {
   body {
-    background-color: #607eaa;
+    background-color: #5a7aaa;
   }
 
   header {
@@ -383,13 +391,25 @@ body {
     width: 60%;
   }
 
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
   .social-icons a {
     text-decoration: none;
+    margin-right: 6%;
   }
 
   .social-icons img {
-    margin: 5% 8% 5% 0;
-    width: 10%;
+    margin-right: 4vw;
+    width: 35px;
+  }
+
+  #tweet-vector {
+    margin: 15% 0 0 0;
   }
 }
 
@@ -412,7 +432,7 @@ body {
   .home-social-icons {
     justify-content: center;
     align-items: center;
-    margin: 3%;
+    margin: 8% 3% 8% 3%;
   }
 
   .home-social-icons a {
@@ -421,8 +441,7 @@ body {
   }
 
   .home-social-icons img {
-    margin: 5% 8% 5% 0;
-    width: 10%;
+    width: 35px;
   }
 }
 
@@ -450,14 +469,20 @@ body {
     text-align: center;
   }
 
-  #project-items {
+  #project-items-1,
+  #project-items-2 {
     display: flex;
     flex-direction: column;
     margin: auto;
   }
 
-  .project-item-img {
+  .project-item {
     max-width: 100%;
-    margin: 5% 0 8% 0;
+  }
+
+  .project-item-img,
+  .project-item-img-lg {
+    max-width: 100%;
+    margin: 5% 0 5% 0;
   }
 }
