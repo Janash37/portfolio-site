@@ -1,5 +1,3 @@
-Jan's Portfolio Site
-
 A live version of this repository be found here: https://janash.co.uk/
 The site is hosted on Hostinger.
 
