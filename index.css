@@ -407,9 +407,7 @@ body {
   #tweet-vector {
     margin: 15% 0 0 0;
   }
-}
 
-@media screen and (max-width: 992px) {
   .contact {
     margin: 25% 12.5%;
     width: 90vw;
