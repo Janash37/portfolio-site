@@ -206,6 +206,7 @@ main {
 
 #headshot {
   border-radius: 50%;
+  height: 85%;
   width: 50%;
 }
 
@@ -349,7 +350,7 @@ body {
   }
 
   #title {
-    margin: 25% 0 0 12.5%;
+    margin: 3rem 0 0 3rem;
     width: 90vw;
   }
 
