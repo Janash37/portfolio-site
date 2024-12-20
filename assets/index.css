@@ -21,7 +21,7 @@ main,
 .navbar,
 #title,
 #experience {
-  background-color: #5a7aaa;
+  background-color: #454545;
   color: #fff;
 }
 
@@ -38,7 +38,7 @@ main {
   display: block;
   height: 100px;
   width: 100%;
-  background: #5a7aaa;
+  background: #454545;
   margin: 0px;
   z-index: 9;
 }
@@ -115,7 +115,7 @@ main {
   left: -250px;
   width: 200px;
   height: 100%;
-  background-color: #5a7aaa;
+  background-color: #454545;
   transition: 0.3s;
   padding: 5% 5%;
   box-sizing: border-box;
@@ -192,6 +192,7 @@ main {
   display: flex;
   justify-content: center;
   margin-top: 5%;
+
 }
 
 #bio-container-left {
@@ -221,7 +222,7 @@ main {
 }
 
 .experience-job {
-  background-color: #5a7aaa;
+  background-color: #454545;
   border-bottom: 1px solid #ddd;
   color: #fff;
   line-height: 1.5;
@@ -239,11 +240,11 @@ main {
 /* -------------- PROJECTS -------------- */
 
 body {
-  background-color: #5a7aaa;
+  background-color: #454545;
 }
 
 .projects {
-  background-color: #5a7aaa;
+  background-color: #454545;
   color: #fff;
   align-items: center;
   justify-content: center;
@@ -342,7 +343,7 @@ body {
 
 @media screen and (max-width: 992px) {
   body {
-    background-color: #5a7aaa;
+    background-color: #454545;
   }
 
   header {
